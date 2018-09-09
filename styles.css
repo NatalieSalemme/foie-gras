@@ -217,6 +217,15 @@ i {
   margin-left: 1em;
   font-weight: bold;
 }
+.private-dining-img {
+  float: right;
+  display:inline;
+  margin-left: 1.5em;
+}
+.private-dining-p {
+  align: left;
+  line-height: 150%;
+}
 .mySlides {
   display:none;
 }
