@@ -7,6 +7,7 @@ body{
     background-image: url("images/bg-glasses.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
     font-family: Verdana, sans-serif;
     width: 90%;
     margin: auto;
@@ -16,7 +17,6 @@ body{
 .column {
   float: left;
   padding: 10px;
-  height: 1800px;
 }
 .left {
   width: 25%;
@@ -37,15 +37,19 @@ body{
   border-top: 12px solid #d34728;
   font-weight: lighter;
   font-family: Helvetica;
+  background-color:#abb5cc;
+  opacity: .95;
 
 }
 .r-2 {
   width: 35%;
-  background-color: lightblue;
   border-top: 12px solid #d34728;
+  border-left: 2px solid #d34728;
+  background-color: #abb5cc;
+  opacity: .95;
 }
 .red-bar {
-  background-color: rgb(211,71,40);
+  background-color: #d34728;
   width: 90%;
   height: 1em;
   margin: auto;
@@ -53,6 +57,7 @@ body{
 }
 .nav,
 .address,
+.google-maps
 {
   list-style-type: none;
   text-transform: uppercase;
@@ -87,21 +92,20 @@ body{
     margin-right: .5em;
 
 }
-.google-maps {
-  color:white;
-  text-decoration:none;
-}
-.nav a:link {
+
+.nav a:link,
+.google-maps a:link {
     color: white;
-    /* background-color: transparent; */
     text-decoration: none;
 }
-.nav a:visited {
+.nav a:visited,
+.google-maps a:visited{
     text-decoration: none;
     color:white;
 }
-.nav a:hover {
-    color: rgb(211,71,40);
+.nav a:hover,
+.google-maps a:hover{
+    color: #d34728;
     background-color: transparent;
     text-decoration: none;
 }
@@ -109,7 +113,7 @@ body{
   font-size: 20px;
 }
 .nav .menu {
-  color: rgb(211,71,40);
+  color: #d34728;
   font-size: 40px;
   letter-spacing: 8px;
 }
@@ -138,18 +142,12 @@ body{
 }
 
 .red-top {
-  background-color: rgb(211,71,40);
+  background-color: #d34728;
   width: 100%;
   height: 1em;
   margin-bottom: -1.3em;
 }
 
-.main {
-  background-color: gray;
-  height: 100%;
-  opacity: .9;
-  padding-bottom: -3em;
-}
 .brand-logo {
   height: 13em;
   width: 16em;
@@ -167,7 +165,10 @@ body{
 .nav-2-header {
   text-transform: uppercase;
   font-size: 35px;
-  color: #444;
+}
+.nav-2-header a{
+  color: black;
+  text-decoration: none;
 }
 .news-container {
   border-bottom: 2px solid #d34728;
@@ -178,8 +179,10 @@ body{
   text-align: center;
   font-family: Helvetica;
   text-align: left;
-  /* text-transform: uppercase; */
-  /* display: inline-block; */
+}
+.news-header a {
+  text-decoration: none;
+  color: black;
 }
 .news-img {
   height: 125px;
@@ -191,16 +194,14 @@ body{
   text-decoration: none;
   color: black;
 }
-.news-more:hover {
+.news-more:hover,
+.nav-2-header a:hover {
   color: #d34728;
 }
 .double-arrow {
   color: #d34728;;
   font-size: 25px;
   vertical-align: top;
-}
-.gallery-container {
-  /* margin: auto; */
 }
 .gallery-img {
   height: 175px;
@@ -210,12 +211,16 @@ body{
 }
 .staff-container {
   border-bottom: 2px solid #d34728;
+  margin-bottom: 2em;
+
 }
 .mySlides {
   display:none;
 }
-img {
+.mySlides img {
   vertical-align: middle;
+  width: 100%;
+  height: 175px;
 }
 /* Slideshow container */
 .slideshow-container {
