@@ -212,7 +212,10 @@ body{
 .staff-container {
   border-bottom: 2px solid #d34728;
   margin-bottom: 2em;
-
+}
+i {
+  margin-left: 1em;
+  font-weight: bold;
 }
 .mySlides {
   display:none;
