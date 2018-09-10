@@ -15,15 +15,28 @@
         <li><a href="menu.html" class="menu">Menu</a></li>
         <li><a href="index.html" class="about">About</a></li>
         <li><a href="private-dining.html">Private Dining</a></li>
-        <li><a href="hours.html">Hours</a></li>
         <li><a href="reservations.html">Reservations</a></li>
-        <li><a href="gift-cards.html">Gift Cards</a></li>
+        <div class="hours" onclick="openTab('b1');">
+        <li><a href="#" id="hours">Hours</a></li>
+        </div>
+
+      <div id="b1" class="containerTab" style="display:none";>
+        <span onclick="this.parentElement.style.display='none'" class="closebtn" >&times;</span>
+        <br>
+        <ul class="hours-tab">
+          <li>Cocktail Hour	4pm-7pm</li>
+          <li>Night Cap (Th,F,S)	10pm-12am</li>
+          <li>Weekend Brunch	11am-3:30pm</li>
+          <li>Dinner Service	5pm-10pm</li>
+          <li> Sat. Cocktail Hour	11am-7pm</li>
+        </ul>
+      </div>
       </ul>
       <div class="red-bar">
       </div>
       <ul class="address">
         <li>3953 Sequoia Street</li>
-        <li>San Diego, CA, 92104</li>
+        <li>San Diego, CA, 92109</li>
         <li>(619) 552-6702</li>
         <li class="google-maps"><a  href="#google-maps">Google Maps & Directions</a></li>
         <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>

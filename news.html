@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="menu">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,23 +16,21 @@
         <li><a href="index.html" class="about">About</a></li>
         <li><a href="private-dining.html">Private Dining</a></li>
         <li><a href="reservations.html">Reservations</a></li>
-
-
-          <div class="hours" onclick="openTab('b1');">
-          <li><a href="#" id="hours">Hours</a></li>
-          </div>
-
-        <div id="b1" class="containerTab" style="display:none";>
-          <span onclick="this.parentElement.style.display='none'" class="closebtn" >&times;</span>
-          <br>
-          <ul class="hours-tab">
-            <li>Cocktail Hour	4pm-7pm</li>
-            <li>Night Cap (Th,F,S)	10pm-12am</li>
-            <li>Weekend Brunch	11am-3:30pm</li>
-            <li>Dinner Service	5pm-10pm</li>
-            <li> Sat. Cocktail Hour	11am-7pm</li>
-          </ul>
+        <div class="hours" onclick="openTab('b1');">
+        <li><a href="#" id="hours">Hours</a></li>
         </div>
+
+      <div id="b1" class="containerTab" style="display:none";>
+        <span onclick="this.parentElement.style.display='none'" class="closebtn" >&times;</span>
+        <br>
+        <ul class="hours-tab">
+          <li>Cocktail Hour	4pm-7pm</li>
+          <li>Night Cap (Th,F,S)	10pm-12am</li>
+          <li>Weekend Brunch	11am-3:30pm</li>
+          <li>Dinner Service	5pm-10pm</li>
+          <li> Sat. Cocktail Hour	11am-7pm</li>
+        </ul>
+      </div>
       </ul>
       <div class="red-bar">
       </div>
@@ -40,7 +38,7 @@
         <li>3953 Sequoia Street</li>
         <li>San Diego, CA, 92109</li>
         <li>(619) 552-6702</li>
-        <li class="google-maps"><a  href="map.html">Google Maps & Directions</a></li>
+        <li class="google-maps"><a  href="#google-maps">Google Maps & Directions</a></li>
         <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
         <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
         <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
@@ -70,22 +68,13 @@
   <div class="column right">
     <img class="brand-logo" src="images/brand-logo.png">
     <div class="row">
-      <div class="red-top">
-      </div>
-  <div class="column r-1">
+  <div class="column r-1" style="width: 100%;">
     <ul class="nav-2">
-      <li><a href="#about">About</a><span class="divider">|</span></li>
+      <li><a href="index.html"><--About</a><span class="divider">|</span></li>
       <li><a href="news.html">News</a><span class="divider">|</span></li>
       <li><a href="#staff">Staff</a><span class="divider">|</span></li>
       <li><a href="#gallery">Gallery</a></li>
     </ul>
-    <p id="about" style="font-family: Helvetica">Natalie Salemme and her team bring you a luxurious dining experience you
-      won't forget. From the first step you walk into the door until you are walking
-      out with a smile on your face, you will be taken care of. We are a restaurant
-      that has been located in the heart of the Gaslamp District in downtown San Diego
-      for the past 3 years and we are excited for you to join us! To ensure the best
-      dining experience, we recommend you make a reservation to dine in with us.
-      </p>
       <div class="news-container">
       <h1 class="nav-2-header"><a href="#news">News Feed</a><span class="double-arrow"> >></span></h1>
       <img class="news-img" src="images/news-greenhouse.jpg">
@@ -93,37 +82,44 @@
       <p class="news">The restaurant kicks of the summer with a fundraiser for
         the San Diego Unified School District to support the arts/music program
         in inner city schools. The dinner included fine cuisine including: rosemary
-        potatoes, lamb chops, and parmesan asparagus. Proceeds from the event will be used..
-        <strong><a href="#news-greenhouse" class="news-more">More >></a></strong>
-      <!--to buy instruments, art canvases, and gallons of paint.
-       -->
+        potatoes, lamb chops, and parmesan asparagus. Proceeds from the event will be used
+        to buy instruments, art canvases, and gallons of paint. Students and their families
+        were also invited to perform the national anthem in front of their first live audience.
+        <br>
+        <br>
+        In addition, there was an art show that took place after the dinner, where guests
+        could purchase the student's art as well as request commissions from the students.
+        The school district was able to raise over $4,000 with the event, and the schools
+        are planning on creating a few new art classes for the high schools, as well as the elementary schools.
+        With the help of the event, the school district will be able to buy the art supplies
+        for the students to use in class.
+
     </p>
+    <br>
       <img class="news-img" src="images/news-chopping-onions.jpg" style="margin-top: .5em;">
       <h4 class="news"><strong>Homeless Banquet in Downtown</strong></h4>
-      <p class="news">The staff get together in order to provide the homeless
+      <p class="news">The staff got together in order to provide the homeless
         people in Downtown a meal fit for kings and queens. After the meal, the guests
-        attend a seminar to learn about career opportunities in their restaurant
-        as well as get a hands-on lesson with a professional chef. Guests who..
-      <strong><a href="#news-fundraiser" class="news-more">More >></a></strong>
+        attended a seminar to learn about career opportunities in their restaurant
+        as well as get a hands-on lesson with a professional chef.
+          <br><br>
+          Guests who were interested
+        in any of the positions, were welcomed back to the restaurant for a tour around the kitchen
+        as well as the dining room area. Attendees learned how to cook simple dishes using
+        only a few ingredients as well as learned how to setup for a dinner rush quickly.
+
+
+        The restaurant also rented out a nearby home for the week so that attendees
+        could take a hot shower, get some rest, and read up on some of the interview
+        books that were left for them in their rooms. The restaurant is hopeful
+        that the guests will be able to get back on their feet and back into the
+        workforce soon.
     </p>
-  </div>
-    <div class="gallery-container">
-      <h1 class="nav-2-header"><a href="#gallery">Gallery</a><span class="double-arrow"> >></span></h1>
-        <img class="gallery-img" src="images/gallery-chef-plating.jpg">
-        <img class="gallery-img" src="images/gallery-mushroom.jpg">
-        <img class="gallery-img" src="images/gallery-pork-plate.jpg">
     </div>
+
+
   </div>
-  <div class="column r-2">
-    <div class="staff-container">
-      <h1 class="nav-2-header"><a href="#staff">Staff</a><span class="double-arrow"> >></span></h1>
-    </div>
-<a class="twitter-timeline" href="https://twitter.com/NatalieSalemme?ref_src=twsrc%5Etfw"
-data-width="300"
-data-height="600">
-  Tweets by NatalieSalemme</a> <script async src="https://platform.twitter.com/widgets.js"
-  charset="utf-8"></script>
-  </div>
+
 </div>
 </div>
   </div>
