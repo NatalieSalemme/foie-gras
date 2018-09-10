@@ -207,6 +207,11 @@ body{
 .staff-container {
   border-bottom: 2px solid #d34728;
   margin-bottom: 2em;
+  margin: auto;
+  text-align: center;
+}
+.staff-container li {
+  list-style-type: none;
 }
 i {
   margin-left: 1em;
@@ -357,3 +362,10 @@ i {
     height:500px;
     width:600px;
   }
+.gallery-img {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  display: block;
+  padding-top: 2em;
+}
