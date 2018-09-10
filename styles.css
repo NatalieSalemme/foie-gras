@@ -157,11 +157,6 @@ body{
   width: 50%;
   opacity: 1;
 }
-#about {
-  padding: 1.2em 0 2em 0;
-  border-bottom: 2px solid #d34728;
-  font-weight: lighter;
-}
 .nav-2-header {
   text-transform: uppercase;
   font-size: 35px;
@@ -299,4 +294,36 @@ i {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+
+
+/* The grid: Three equal columns that floats next to each other */
+
+.containerTab {
+  margin-left: -2em;
+  margin-top: -1em;
+  color: white;
+
+}
+.hours-tab{
+  list-style-type: none;
+  justify-content: left;
+}
+.hours-tab li {
+  font-size: 13px;
+}
+#hours  {
+  margin-top: -3em;
+  padding-bottom: 5em;
+  padding-top: -3em;
+
+
+}
+/* Closable button inside the container tab */
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
 }

@@ -16,3 +16,18 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 4000);
 }
+
+//hours collapse
+let hours = document.getElementById('hours');
+hours.addEventListener('click', () => {
+  console.log('you clicked the hours nav button');
+})
+
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
