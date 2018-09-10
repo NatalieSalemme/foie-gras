@@ -327,3 +327,22 @@ i {
     font-size: 35px;
     cursor: pointer;
 }
+.reservations-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: 2em;
+
+}
+.reservations-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+.reservations-submit {
+  background-color: #d34728;
+  /* border: 1px solid black; */
+  color: white;
+  font-size: 20px;
+  border-style: outset;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html id="menu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="row">
+    <div class="column left">
+      <ul class="nav">
+        <li><a href="menu.html" class="menu">Menu</a></li>
+        <li><a href="index.html" class="about">About</a></li>
+        <li><a href="private-dining.html">Private Dining</a></li>
+        <li><a href="hours.html">Hours</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="gift-cards.html">Gift Cards</a></li>
+      </ul>
+      <div class="red-bar">
+      </div>
+      <ul class="address">
+        <li>3953 Sequoia Street</li>
+        <li>San Diego, CA, 92104</li>
+        <li>(619) 552-6702</li>
+        <li class="google-maps"><a  href="#google-maps">Google Maps & Directions</a></li>
+        <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+      </ul>
+      <div class="red-bar">
+      </div>
+
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/slide-menu.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/slide-tables-and-chairs.jpg">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/slide-glass-and-mug.jpg">
+      </div>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+  </div>
+
+  <div class="column right">
+    <img class="brand-logo" src="images/brand-logo.png">
+    <div class="row">
+  <div class="column r-1" style="width: 100%;">
+
+    <h1 class="nav-2-header">Reservations</h1>
+      <img class="private-dining-img" src="images/reservations-glass-clink.jpg">
+    <p >For parties larger than 6, or parties who are interested
+      in a time that is no longer available, please contact us at (619) 552-6702.
+  </p>
+  <form class="reservations-container" action="#">
+    <div class="reservations-row">
+    Party Size: <select name="party-size">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+    </select>
+  </div>
+  <div class="reservations-row">
+    Date:<input type="date" name="date">
+  </div>
+  <div class="reservations-row">
+    Time: <select name="time">
+      <option value="am-7">7:00 AM</option>
+      <option value="am-8">8:00AM</option>
+      <option value="am-9">9:00 AM</option>
+      <option value="am-10">10:00 AM</option>
+      <option value="am-11">11:00 AM</option>
+      <option value="pm-12">12:00 PM</option>
+      <option value="pm-1">1:00 PM</option>
+      <option value="pm-2">2:00 PM</option>
+      <option value="pm-3">3:00 PM</option>
+      <option value="pm-4">4:00 PM</option>
+      <option value="pm-5">5:00 PM</option>
+      <option value="pm-6">6:00 PM</option>
+      <option value="pm-7">7:00 PM</option>
+      <option value="pm-8">8:00 PM</option>
+      <option value="pm-9">9:00 PM</option>
+      <option value="pm-10">10:00 PM</option>
+    </select>
+  </div>
+  <div class="reservations-row">
+  <input type="submit" class="reservations-submit" value="Find A Table">
+</div>
+  </form>
+
+  </div>
+
+</div>
+</div>
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+  </html>
